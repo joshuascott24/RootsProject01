@@ -1,0 +1,124 @@
+  header, .container1, .container2, .card-container {
+    display: flex;
+  }
+  
+  .image1 {
+    height: 112px;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  header {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF580F; /* Adjust the background color as desired */
+    color: white;
+    height: 100px;
+  }
+  
+  header img {
+    height: 100%; /* Make the logo image fit the height of the header */
+  }
+
+  .container1 {
+    justify-content: flex-box;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .container2 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .main-text {
+    width: 40%;
+    height: 100%;
+    background-color: #f2f2f2; 
+  }
+  
+  .main-image {
+    width: 70%;
+    height: 100%;
+    background-color: #f2f2f2; 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .main-image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title-container {
+    width: 65%;
+  }
+  
+  .testimonials-container {
+    width: 35%;
+    padding: 20px; /* Add padding to create space around the content */
+  }
+  
+  .testimonials-container h3 {
+    margin-top: 0; /* Remove default top margin for the heading */
+  }
+  
+  .testimonials-container p {
+    margin-bottom: 0; /* Remove default bottom margin for paragraphs */
+  }
+  
+  .card {
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 0 10px;
+  }
+  
+  .card-container img {
+    width: 150px;
+    height: 90px;
+  }
+  
+  /* Existing CSS code... */
+
+/* Add modern button style */
+button {
+    background-color: #007bff; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add cursor style on hover */
+    font-weight: bold; /* Set font weight */
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  /* Rest of the CSS code... */
+
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect for navigation buttons */
+  nav a:hover {
+    background-color: #2376e4;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .image1, header img, header, .container1, .container2, .main-text, .main-image, .main-image img, .testimonials-container, .testimonials-container h3, .title-container, .card, .choose-us, .card-container {
+      display: inline-block;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
